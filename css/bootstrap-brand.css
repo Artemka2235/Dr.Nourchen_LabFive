@@ -1,0 +1,18 @@
+/* Brand colours for index-bootstrap.html */
+.brand-body { background: #FAF6EE; font-family: Arial, sans-serif; }
+.brand-heading { font-family: Georgia, serif; color: #0B1F4B; }
+.navbar .brand-heading, .brand-hero .brand-heading { color: #ffffff; }
+.brand-night { background: #0B1F4B; }
+.brand-hero { background: linear-gradient(135deg, #0B1F4B 0%, #1d3a7a 60%, #E0A526 100%); }
+.text-brand-gold { color: #E0A526; }
+.badge-gold { background: #E0A526; color: #0B1F4B; }
+.btn-gold {
+  --bs-btn-bg: #E0A526; --bs-btn-border-color: #E0A526; --bs-btn-color: #0B1F4B;
+  --bs-btn-hover-bg: #ffffff; --bs-btn-hover-border-color: #ffffff; --bs-btn-hover-color: #0B1F4B;
+  --bs-btn-active-bg: #c98f15; --bs-btn-active-border-color: #c98f15;
+  font-weight: bold;
+}
+.navbar .nav-link.active { border-bottom: 3px solid #E0A526; }
+.navbar .nav-link:hover { background: #E0A526; color: #0B1F4B; border-radius: 4px; }
+.card { transition: transform 0.25s; }
+.card:hover { transform: translateY(-8px); }
